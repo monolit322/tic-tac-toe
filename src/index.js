@@ -118,7 +118,7 @@ import './index.css';
 
       let status;
       if (winner) {
-        status = 'Выиграл' + winner;
+        status = 'Выиграл ' + winner;
       } else {
         status = 'Следующий ход: ' + (this.state.xIsNext ? 'X' : 'O');
       }
